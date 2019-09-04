@@ -1,0 +1,273 @@
+/* header css starts */
+.logo{
+    width: 36%;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+/* .header .container{
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+} */
+.navbar.navbar-default {
+    position: fixed;
+    margin-top: 21px;
+    /*  set animation */
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+.navbar.navbar-default.sticky, .container.sticky {
+    font-size: 19px;
+    margin-top: -5px;
+  width:100%;
+    background:#ffffffd1;
+    padding: 10px 17px;
+   
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar.navbar-default {
+        margin-top: 0px;
+}
+}
+@media only screen and (max-width: 767px) {
+.header .navbar.navbar-default{
+    width:100%;
+    margin-top:0;
+}
+.header .navbar-brand{
+    padding:0;
+    padding-left: 10px !important;
+}
+.logo {
+    width: 28%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .bekannt_aus img {
+        display: inline-block;
+        width: 25%;
+        margin: 0px 10px !important;
+    }
+    .header .navbar-brand{
+
+        padding:0;
+    }
+    .header{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
+
+small{
+    color:#ffffffd6 !important;
+}
+.header .navbar-brand{
+    padding: 0;
+}
+.navbar.navbar-default.sticky .navbar-brand{
+    padding: 5px;
+}
+.navbar.navbar-default.sticky .logo {
+    width: 25%;
+    
+}
+
+.navbar-default {
+    position: fixed;
+    font-size: 24px;
+    /*  set animation */
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background-color: #fff;
+    border-color: #e7e7e700;
+}
+
+/* header css ends */
+
+/* contact form section css starts */
+
+.contact-form{
+    margin-top: 7%;
+    background:url('../images/fabio-mangione-236846-unsplash.jpg')
+}
+.contact-form .col{
+    width: 50%;
+    background: #ffffff4a;
+    color: #ffffff;
+    padding: 57px;
+}
+
+.contact-form form button{
+    width: 24%;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-form .col{
+        width: 100%;
+    }
+}
+
+    /* contact form section css ends */
+
+    /* bekannt_aus section starts */
+
+.bekannt_aus{
+    margin: 43px 0px;
+}
+.bekannt_aus p{
+    display:inline-block;
+    font-size: 19px;
+}
+.bekannt_aus img{
+    box-shadow: -4px 10px 37px -14px;
+display: inline-block;
+width: 25%;
+margin: 0px 28px;
+}
+@media only screen and (max-width: 767px) {
+    .bekannt_aus p{
+        display: block;
+        text-align: center;
+    }
+    .bekannt_aus img {
+        display: block;
+        width: 73%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}
+    /* bekannt_aus section ends */
+    /* Willkommensüberschrift-section starts */
+
+.Willkommensüberschrift{
+width: 47%;
+float: left;
+}
+.Willkommensüberschrift h3{
+    margin-bottom: 22px;
+}
+.Willkommensüberschrift-section{
+    margin-top: 8%;
+}
+.Willkommensüberschrift-section img{
+    width: 41%;
+    float: right;
+    box-shadow: -4px 10px 37px -14px;
+}
+@media only screen and (max-width: 767px) {
+.Willkommensüberschrift {
+    width: 100%;
+    float: none;
+}
+.Willkommensüberschrift-section img {
+    width: 100%;
+    float: none;
+    box-shadow: -4px 10px 37px -14px;
+}
+.Willkommensüberschrift-section{
+    text-align: center;
+    width: 73%;
+    margin: auto;
+}
+}
+
+/* Willkommensüberschrift-section ends */
+/* video-section starts */
+.video-section{
+    margin-top: 8%;
+    text-align: center;
+    background: #e6e6e640;
+    padding: 16px 0px 42px 0px;
+    margin-bottom: 8%;
+}
+
+.video-section h3{
+    text-align: left;
+}
+.video-section video{
+    width: 100%;
+    margin-top: 31px;
+}
+@media only screen and (max-width: 767px) {
+    .video-section{
+        width: 73%;
+    margin: 0 auto;
+    }
+}
+/* video-section ends */
+
+/* faq-section starts */
+.faq-section h2{
+    margin-bottom: 36px;
+    font-size: 24px;
+}
+.accordion h3 {
+
+	padding: 7px 15px;
+	margin: 0;
+    border-bottom: 1px dashed;
+	border: solid 1px #c4c4c4;
+	cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+.accordion h3:hover {
+background-color:#004e76;
+  color:#eee;
+}
+.accordion h3.active {
+	background-position: right 5px;
+}
+.accordion p {
+
+	margin: 0;
+	padding: 15px 15px 20px;
+	border-left: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+  font-size:17px;
+
+  border-bottom: 1px solid #c4c4c4;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .faq-section{
+    width: 75%;
+    margin: 0 auto;
+}
+}
+
+/* faq-section ends */
+
+/* footer section starts */
+.footer{
+    margin-top: 5%;
+}
+.footer img{
+    width: 4%;
+}
+.footer #collapseRight{
+    float: right;
+}
+.footer li a{
+    color: #333;
+}
+@media only screen and (max-width: 767px) {
+    .footer, .footer-copyright{
+        padding: 0 16px;
+    }
+.footer img {
+    width: 54px;
+}
+.footer #collapseRight{
+    display: inline-block;
+
+}
+.footer .nav>li {
+    display: inline-block;
+    position: relative;
+}
+}
+/* footer section ends */

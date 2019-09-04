@@ -1,0 +1,12 @@
+.main_footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+       
+}
+
+.thankYou-message{
+    margin-top: 13%;
+    text-align: center;
+    transform: translateY(50%);
+}
